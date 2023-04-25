@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.qoute{
+    height: 600px;
+    width: 100%;
+    background: linear-gradient(67deg, rgba(195,247,249,1) 0%, rgba(255,255,255,1) 68%);
+}
+
+.qoutebox{
+    width: 70%;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.privacyimage{
+    margin-top: 3rem;
+}
+
+.textbox{
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.textdesc{
+    margin-inline: 30px;
+    padding-inline: 30px;
+    font-size: 15px;
+}
+
+.textpanel{
+    padding-inline: 30px;
+    border-radius: 10px;
+    font-size: 46px;
+    font-weight: 700;
+    font-family: 'Roboto',sans-serif;
+    text-align: left;
+    margin-inline: 30px;
+}
+
+
+@media only screen and (max-width: 998px) {
+.qoute{
+    height: 900px;
+    width: 100%;
+    background: white;
+}
+.qoutebox{
+    width: 100%;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column !important;
+    display: none;
+}
+.privacyimage{
+    max-width: 90%;
+    margin-inline: auto;
+    height: auto;
+    object-fit: scale-down;
+    margin-top: 0.1    rem ;
+}
+.textpanel{
+    font-size: 33px;
+}
+}
+
+@media only screen and (max-width: 768px) {
+    .aboutus{
+        height: 560px;
+    }
+    }

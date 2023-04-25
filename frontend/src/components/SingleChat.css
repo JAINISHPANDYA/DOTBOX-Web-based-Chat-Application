@@ -1,0 +1,38 @@
+.blanktext{
+    animation-name: fadeInfade;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+.writingpad{
+    animation-name: fadeInDown;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+.upinmenu{
+    animation-name: fadeInDown;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+.emojimenu{
+    animation-name: fadeInDown;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+@keyframes fadeInfade {
+    from {
+        opacity: 0;
+        
+    }
+    to { opacity: 1;
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to { opacity: 1;
+        transform: translateY(0px);
+    }
+}

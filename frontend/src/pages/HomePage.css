@@ -1,0 +1,30 @@
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.mainbox{
+    animation: slide-in .5s;
+    margin-left: 1650px;
+}
+.mainboxinactive{
+    animation: slide-out .5s;
+    margin-left: -1650px;
+}
+
+@keyframes slide-out {
+    0% {
+        margin-left: 1650px;
+    }
+    100% {
+        margin-left: -1650px;
+    }
+  }
+@keyframes slide-in {
+    from {
+        margin-left: -1650px;
+    }
+    to {
+        margin-left: 1650px;
+    }
+    
+}

@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Montserrat:wght@100&family=Work+Sans:wght@200&display=swap');
+
+.header{
+    width: 100%;
+    height: 5rem;
+    background: #ffffff;
+    background: linear-gradient(167deg, rgba(195,247,249,1) 0%, rgba(255,255,255,1) 68%);
+
+}
+.innerboxheader{
+    width: 65%;
+    height: 100%;
+    margin-inline: auto;
+    display: flex;
+}
+.logo{
+    width: 40%;
+    margin-inline: 4rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.logotext{
+    color: #3897d3;
+    font-weight: 700;
+    font-size: 2.25rem;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont;
+}
+
+.linktoaboutus{
+    margin-inline: 1rem;
+    margin-bottom: auto;
+    margin-top: auto;
+    color: #3897d3;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.linktoprivacy{
+    margin-inline: 1rem;
+    margin-bottom: auto;
+    margin-top: auto;
+    color: #3897d3;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.linktologin{
+    margin-inline: 1rem;
+    margin-bottom: auto;
+    margin-top: auto;
+    color: #3897d3;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.linktosignup{
+    background-color: #3897d3;
+    padding-inline: 10px;
+    border-radius: 5px;
+    margin-inline: 1rem;
+    margin-bottom: auto;
+    margin-top: auto;
+    color: #ffffff;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.linkbox{
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+    float: right;
+    display: flex;
+    flex-direction: row;
+}
+.shutterbutton{
+    display: none;
+}
+.drawerbodysection{
+    display: flex;
+    flex-direction: column;
+
+}
+.drawerlinks{
+    margin-inline: auto;
+    padding: 10px;
+    font-size: 20px;
+}
+
+@media screen and (max-width : 998px) {
+    .linkbox{
+        display: none;
+    }
+    .header{
+        height: 3rem;
+        background: white;
+        width: 100%;
+    }
+    .linkbox{
+        display: none;
+    }
+    .innerboxheader{
+        width: 100%;
+    }
+    .logo{
+        margin-inline: 0rem;
+        width: 90%;
+        padding-inline: 2rem;
+    }
+    .logotext{
+        font-size: 1.25rem;
+    }
+    .shutterbutton{
+        display:block;
+        background: none;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-inline: auto;
+        
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .linkbox{
+        display: none;
+    }
+    .header{
+        height: 3rem;
+        background: white;
+    }
+    .linkbox{
+        display: none;
+    }
+    .innerboxheader{
+        width: 100%;
+    }
+    .logo{
+        margin-inline: 0rem;
+        width: 80%;
+        padding-inline: 2rem;
+    }
+    .logotext{
+        font-size: 1.25rem;
+    }
+    .shutterbutton{
+        display: block;
+        background: none;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-inline: auto;
+        
+    } 
+}

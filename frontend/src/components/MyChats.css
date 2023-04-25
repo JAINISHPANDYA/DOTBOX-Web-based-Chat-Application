@@ -1,0 +1,13 @@
+.chats{
+    animation-name: fadeInfade;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+@keyframes fadeInfade {
+    from {
+        opacity: 0;
+        
+    }
+    to { opacity: 1;
+    }
+}

@@ -1,0 +1,28 @@
+
+.mainbox3{
+    animation: slide-in2 .3s;
+    margin-left: 320px;
+
+
+}
+.mainbox3inactive{
+    animation: slide-out2 .3s;
+    margin-left: -320px;
+}
+@keyframes slide-out3 {
+    0% {
+        margin-left: 320px;
+    }
+    100% {
+        margin-left: -320px;
+    }
+  }
+@keyframes slide-in3 {
+    from {
+        margin-left: -320px;
+    }
+    to {
+        margin-left: 320px;
+    }
+    
+}

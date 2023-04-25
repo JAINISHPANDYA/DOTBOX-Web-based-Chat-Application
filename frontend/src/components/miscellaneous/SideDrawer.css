@@ -1,0 +1,17 @@
+
+.dropdownmenu{
+    background-color: rgb(17, 25, 40) !important;
+    border-radius: 12px !important;
+    border: none;
+}
+.css-15nmr0g{
+    background: rgba( 21, 23, 46, 0.65 ) !important;
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ) !important;
+backdrop-filter: blur( 20px ) !important;
+-webkit-backdrop-filter: blur( 20px ) !important;
+border: 0px solid rgba( 255, 255, 255, 0.18 ) !important;
+}
+
+.drawerdrawer{
+    background-color: #232540 !important;
+}

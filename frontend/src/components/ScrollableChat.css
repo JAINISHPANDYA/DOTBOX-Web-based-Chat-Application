@@ -1,0 +1,32 @@
+.wholescrollable{
+    overflow-x: hidden;
+    max-height: 670px;
+}
+
+.wholescrollable::-webkit-scrollbar{
+    overflow-x: hidden;
+}
+.messagesspan{
+    animation-name: fadeInRight;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    100% { opacity: 1;
+        transform: translateX(0px);
+    }
+}
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to { opacity: 1;
+        transform: translateX(0px);
+    }
+}
